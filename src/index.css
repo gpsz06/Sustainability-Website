@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definição de variáveis globais (cores)*/
+:root {
+  --color-ink: #15191d;
+  --color-white: #ffffff;
+  --color-forest: #289955;
+  --color-mint: #7fe398;
+  --color-slateblue: #7890a8;
+  --color-neon: #e7fd27;
+}
+
+/* Raio animável da "lente" do Text Reveal */
+@property --r {
+  syntax: '<length>';
+  inherits: true;
+  initial-value: 0px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-body text-ink antialiased;
+    overflow-x: hidden;
+  }
+
+  /* Fonte Poppins (exclusivamente para títulos) */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .font-title {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  section[id] {
+    scroll-margin-top: 0;
+  }
+}
+
+/* Esconde o cursor nativo apenas em dispositivos com mouse */
+body.custom-cursor,
+body.custom-cursor * {
+  cursor: none !important;
+}
+
+/* ---------- Text Reveal (lente do cursor) ---------- */
+.reveal-text {
+  --mx: -999px;
+  --my: -999px;
+  --r: 0px;
+  transition: --r 0.3s ease;
+}
+
+.reveal-text.is-active {
+  --r: 80px; /* metade do diâmetro do cursor (160px) */
+}
+
+.reveal-layer {
+  -webkit-mask-image: radial-gradient(
+    circle var(--r) at var(--mx) var(--my),
+    #000 98%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    circle var(--r) at var(--mx) var(--my),
+    #000 98%,
+    transparent 100%
+  );
+}
