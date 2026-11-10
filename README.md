@@ -1,62 +1,27 @@
-# 🌿 Sustainability — Website Institucional
+# 🌿 Sustainability
 
-Um website interativo, moderno e responsivo focado na conscientização sobre reciclagem, descarte consciente e práticas sustentáveis. Desenvolvido como projeto universitário para a UNINTER.
+Website interativo sobre reciclagem, descarte consciente e práticas sustentáveis, voltado à comunidade local.
 
-🔗 **Acesse o site online:** [https://sustainability-website-olive.vercel.app](https://sustainability-website-olive.vercel.app)
+**🔗 Acesse o site:** [sustainability-website-olive.vercel.app](https://sustainability-website-olive.vercel.app)
 
----
+## Sobre
 
-## 📌 Sobre o Projeto
+Landing page criada para a comunidade local, que apresenta os conceitos de reciclagem e preservação ambiental de forma visual e interativa e incentiva hábitos de descarte mais conscientes no dia a dia.
 
-O **Sustainability** apresenta conceitos fundamentais de reciclagem e preservação ambiental de forma visualmente atraente e interativa. A aplicação conta com animações fluidas, interações ativadas por scroll, carrossel de ideias práticas e integração direta com formulário de feedback do usuário.
+## Funcionalidades
 
-### ✨ Principais Recursos
-- **Interações Modernas:** Revelação de conteúdo por scroll (`ScrollReveal`), cursor customizado e animações suaves (`Framer Motion`).
-- **Guia dos 3 R's & Descarte:** Seções explicativas sobre Reduzir, Reutilizar e Reciclar.
-- **Carrossel Interativo:** Inspirações e ideias práticas para o dia a dia.
-- **Coleta de Feedback:** Integração direta com Google Forms via formulário incorporado.
-- **Design Responsivo:** Navegação adaptada com menu mobile e elementos fluidos para todas as telas.
+- Minigame no Hero: arraste as bolinhas de papel até a lixeira
+- Conteúdo educativo: importância da reciclagem, guia de descarte e os 3 R's
+- Carrossel com ideias práticas de reaproveitamento de materiais
+- Animações no scroll, efeito de texto com "lente" e cursor customizado
+- Link para formulário de feedback no Google Forms
+- Layout responsivo, com menu mobile
 
----
+## Tecnologias
 
-## 🛠️ Tecnologias Utilizadas
+React · Vite · Tailwind CSS · Framer Motion · Lucide React · Vercel
 
-- **Core:** [React](https://react.dev/) + [Vite](https://vitejs.dev/)
-- **Estilização:** [Tailwind CSS](https://tailwindcss.com/)
-- **Animações:** [Framer Motion](https://www.framer.com/motion/)
-- **Ícones:** [Lucide React](https://lucide.dev/)
+## Autor
 
----
-
-## 📂 Estrutura de Arquivos
-
-src/
-├── App.jsx                  # Componente principal
-├── main.jsx                 # Ponto de entrada do React
-├── index.css                # Tokens de cor + estilos globais
-├── assets/                  # Imagens e recursos estáticos
-├── components/              # Componentes de UI reutilizáveis
-│   ├── ScrollReveal.jsx     # Revelação em cascata no scroll
-│   ├── RevealText.jsx       # Efeito de texto com lente
-│   ├── CursorReveal.jsx     # Cursor customizado global
-│   ├── Navbar.jsx           # Navegação flutuante em glassmorphism
-│   ├── Footer.jsx           # Rodapé com autoria e links
-│   ├── Logo.jsx             # Logotipo da marca
-│   ├── PaperBall.jsx        # Elemento visual (bolinha de papel)
-│   └── RecycleBin.jsx       # Elemento visual (SVG lixeira)
-└── sections/                # Seções do website
-├── Hero.jsx             # Seção inicial / Apresentação
-├── OQueE.jsx            # O que é sustentabilidade
-├── Importancia.jsx      # Importância da reciclagem
-├── GuiaDescarte.jsx     # Orientações sobre descarte correto
-├── TresRs.jsx           # Conceito dos 3 R's
-├── IdeiasCarousel.jsx   # Carrossel de ideias sustentáveis
-├── Curiosidades.jsx     # Dados e impacto em números
-└── Feedback.jsx         # Formulário de participação
-
-
----
-
-## 👤 Autoria
-
-Desenvolvido por **Guilherme Pereira de Souza** como parte dos projetos acadêmicos do curso de Ciência da Computação.
+**Guilherme Pereira de Souza**
+Estudante de Ciência da Computação — UNINTER
