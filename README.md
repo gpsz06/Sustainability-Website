@@ -29,7 +29,7 @@ O **Sustainability** apresenta conceitos fundamentais de reciclagem e preservaç
 ---
 
 ## 📂 Estrutura de Arquivos
-```
+
 src/
 ├── App.jsx                  # Componente principal
 ├── main.jsx                 # Ponto de entrada do React
@@ -45,16 +45,18 @@ src/
 │   ├── PaperBall.jsx        # Elemento visual (bolinha de papel)
 │   └── RecycleBin.jsx       # Elemento visual (SVG lixeira)
 └── sections/                # Seções do website
-├── Hero.jsx                 # Seção inicial / Apresentação
-├── OQueE.jsx                # O que é sustentabilidade
-├── Importancia.jsx          # Importância da reciclagem
-├── GuiaDescarte.jsx         # Orientações sobre descarte correto
-├── TresRs.jsx               # Conceito dos 3 R's
-├── IdeiasCarousel.jsx       # Carrossel de ideias sustentáveis
-├── Curiosidades.jsx         # Dados e impacto em números
-└── Feedback.jsx             # Formulário de participação
-```
+├── Hero.jsx             # Seção inicial / Apresentação
+├── OQueE.jsx            # O que é sustentabilidade
+├── Importancia.jsx      # Importância da reciclagem
+├── GuiaDescarte.jsx     # Orientações sobre descarte correto
+├── TresRs.jsx           # Conceito dos 3 R's
+├── IdeiasCarousel.jsx   # Carrossel de ideias sustentáveis
+├── Curiosidades.jsx     # Dados e impacto em números
+└── Feedback.jsx         # Formulário de participação
+
+
 ---
+
 ## 👤 Autoria
 
 Desenvolvido por **Guilherme Pereira de Souza** como parte dos projetos acadêmicos do curso de Ciência da Computação.
