@@ -19,7 +19,7 @@ Landing page criada para a comunidade local, que apresenta os conceitos de recic
 
 ## Tecnologias
 
-React · Vite · Tailwind CSS · Framer Motion · Lucide React · Vercel
+HTML5 · CSS3 · JavaScript · React · Vite · Tailwind CSS · Framer Motion · Vercel
 
 ## Autor
 
